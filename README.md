@@ -1,0 +1,2 @@
+# KlaamGames
+Privacy Policy
