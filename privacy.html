@@ -22,7 +22,7 @@ th{background:#f5f7fa;}
 </head>
 <body>
 <h1>Privacy Policy for Eclipse Relics</h1>
-<p class="updated">Last updated: 14 July 2026</p>
+<p class="updated">Last updated: 21 July 2026</p>
 
 <p>Eclipse Relics (the "Game") is developed and operated by Klaam Games ("we", "us", "our"). Klaam Games is the data controller for the personal data described in this policy. This policy explains what data the Game uses, why it is used, who receives it, and the choices and rights available to you.</p>
 
@@ -42,21 +42,23 @@ th{background:#f5f7fa;}
 <tr><td data-label="Category"><strong>User-generated content</strong></td><td data-label="Examples">Chat messages and guild names, mottos, descriptions, announcements, and activity entries that you choose to submit.</td><td data-label="Why">Provide chat and guild features, moderation, abuse prevention, and support.</td><td data-label="Required?">Optional; only collected when you use these features.</td></tr>
 <tr><td data-label="Category"><strong>Purchases</strong></td><td data-label="Examples">Product, price, currency, transaction status, purchase history, and receipt or signature data used to validate a purchase. We do not receive or store your payment-card number.</td><td data-label="Why">Validate, grant, restore, support, and prevent fraud involving in-app purchases.</td><td data-label="Required?">Required when you make a purchase.</td></tr>
 <tr><td data-label="Category"><strong>Connection and security</strong></td><td data-label="Examples">IP address, approximate country derived from IP, app and operating-system version, timestamps, and technical or fraud-prevention signals.</td><td data-label="Why">Connect to the backend, protect accounts, investigate abuse, and maintain service reliability.</td><td data-label="Required?">Required for the online service.</td></tr>
-<tr><td data-label="Category"><strong>Optional analytics and attribution</strong></td><td data-label="Examples">Sessions, tutorial and gameplay interactions, battle and economy events, purchase events, technical diagnostics, device or advertising identifiers, App Set ID, pseudonymous player ID, and approximate country.</td><td data-label="Why">Understand Game usage and performance, improve the Game, attribute installs, and measure our own marketing campaigns.</td><td data-label="Required?">Optional and processed only after you consent.</td></tr>
+<tr><td data-label="Category"><strong>Optional analytics and attribution</strong></td><td data-label="Examples">Sessions, tutorial and gameplay interactions, battle and economy events, purchase events, technical diagnostics, pseudonymous player ID, and approximate country. On supported Android builds this may also include an App Set ID or advertising identifier. The iOS soft-launch build does not collect IDFA and does not request permission to track across apps or websites.</td><td data-label="Why">Understand Game usage and performance, improve the Game, and, on supported Android builds, attribute installs and measure our own marketing campaigns.</td><td data-label="Required?">Optional and processed only after you consent.</td></tr>
 </tbody>
 </table>
 
 <h2>Optional analytics and your choice</h2>
-<p>If you accept optional analytics, the Game may send analytics and attribution data to PlayFab analytics and Tenjin. Tenjin may send relevant attribution, device, interaction, and purchase-event data to advertising partners such as Meta to measure our campaigns. Eclipse Relics does not display third-party ads, and we do not sell personal data.</p>
+<p>If you accept optional analytics on iOS, the Game may send analytics data to PlayFab analytics. Tenjin and Meta attribution are disabled in the iOS soft-launch build, the Game does not access IDFA, and it does not track you across other companies' apps or websites.</p>
+<p>If you accept optional analytics on a supported Android build, the Game may send analytics and attribution data to PlayFab analytics and Tenjin. Tenjin may send relevant attribution, device, interaction, and purchase-event data to advertising partners such as Meta to measure our campaigns. Eclipse Relics does not display third-party ads, and we do not sell personal data.</p>
 <p>You can withdraw consent at any time under <em>Settings &rarr; Analytics data</em>. New optional analytics collection stops immediately and queued analytics events are cleared. Withdrawal does not affect processing that took place before withdrawal. Core PlayFab data needed for sign-in, saved progress, multiplayer, purchases, security, and account deletion continues to be processed so the Game can work.</p>
-<p>You may also reset or limit the Android advertising ID under your device's privacy and ads settings. The in-game analytics choice controls whether Eclipse Relics connects to its optional attribution service.</p>
+<p>On Android, you may also reset or limit the advertising ID under your device's privacy and ads settings. The in-game analytics choice controls whether Eclipse Relics connects to its optional attribution service.</p>
 
 <h2>Service providers and recipients</h2>
 <ul>
 <li><strong>Microsoft Azure PlayFab:</strong> guest authentication, cloud saves, game services, CloudScript, multiplayer data, leaderboards, and optional analytics after consent.</li>
-<li><strong>Google Play Billing:</strong> payment processing and purchase confirmation. Google handles payment credentials under its own privacy terms.</li>
-<li><strong>Tenjin:</strong> optional install attribution, analytics, and marketing measurement after consent.</li>
-<li><strong>Meta:</strong> may receive optional campaign-measurement events through Tenjin after consent.</li>
+<li><strong>Apple App Store and StoreKit:</strong> payment processing, purchase confirmation, and store receipt handling on iOS. Apple handles payment credentials under its own privacy terms.</li>
+<li><strong>Google Play Billing:</strong> payment processing and purchase confirmation on Android. Google handles payment credentials under its own privacy terms.</li>
+<li><strong>Tenjin:</strong> optional install attribution, analytics, and marketing measurement on supported Android builds after consent. It is disabled in the iOS soft-launch build.</li>
+<li><strong>Meta:</strong> may receive optional Android campaign-measurement events through Tenjin after consent. It does not receive events from the iOS soft-launch build.</li>
 </ul>
 <p>Providers process data under their agreements and privacy terms. Some providers may process data outside your country, including in the United States, using the transfer safeguards available under applicable data-protection law.</p>
 
