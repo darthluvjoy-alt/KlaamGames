@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Join the Eclipse Relics Discord</title>
+<style>
+  :root{color-scheme:dark}
+  *{box-sizing:border-box}
+  body{min-height:100vh;margin:0;padding:24px;display:grid;place-items:center;background:radial-gradient(circle at 50% 15%,#34215c 0,#171027 48%,#090710 100%);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#fff}
+  main{width:min(560px,100%);padding:42px 32px;text-align:center;border:1px solid #7651a5;border-radius:18px;background:rgba(27,18,46,.96);box-shadow:0 24px 80px rgba(0,0,0,.45)}
+  .mark{font-size:44px;line-height:1}
+  h1{margin:18px 0 10px;font-size:30px;color:#ffbd3d}
+  p{margin:8px auto 24px;max-width:430px;line-height:1.6;color:#cfc4df}
+  a.button{display:inline-block;padding:14px 26px;border-radius:10px;background:#5865f2;color:#fff;font-size:17px;font-weight:700;text-decoration:none}
+  a.button:hover{background:#6875f5}
+  .small{margin-top:24px;font-size:13px;color:#9286a6}
+  .small a{color:#bba8d8}
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">&#9790;</div>
+  <h1>Join Eclipse Relics</h1>
+  <p>Share feedback, discuss heroes and help shape the game with the community.</p>
+  <a class="button" id="join" href="https://discord.gg/KdxSrPyFZD" rel="noopener noreferrer">CONTINUE TO DISCORD</a>
+  <p class="small">Discord is an external service. You can still contact us directly through <a href="support.html">Eclipse Relics Support</a>.</p>
+</main>
+<script>
+  const inviteUrl = "https://discord.gg/KdxSrPyFZD";
+  if (inviteUrl.startsWith("https://discord.gg/") || inviteUrl.startsWith("https://discord.com/invite/")) {
+    window.setTimeout(() => window.location.replace(inviteUrl), 350);
+  }
+</script>
+</body>
+</html>
